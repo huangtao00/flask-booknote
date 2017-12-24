@@ -261,7 +261,7 @@ def index():
 
 
 #===templates/index.html
-            
+{% extends "base.html" %}            
             
 ```
 
