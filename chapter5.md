@@ -203,4 +203,8 @@ user_role=Role.query.filter_by(name="User").first()
 #查看底层的sql语句,一个str函数就搞定了
 str(User.query.filter_by(role=user_role)) 
 
+
+#查询时过滤器的使用需要好好看，扫SQLAlchemy的文档
+
+
 ```
