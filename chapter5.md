@@ -69,7 +69,12 @@ db=SQLAlchemy(app)
 model:程序使用的持久化实体。ORM中model为一个Python class。class中的属性对应数据库表中的列。（好好理解这句话）。使用上面的db实例定义model。这个model就是将database中各列与SQLAlchemy的操作联系起来的类
 ```
 db=SQLAlchemy(app)
-class Role(db.Modle)  #继承自db的Model基类
+class Role(db.Modle):  #继承自db的Model基类
+    __table__="roles"
+    id=db.Column(db.Integer,primary_key=True)
+    name=db.Column(db.String(64), unique=True)
+    def  __repr_(self):
+        return "<Role %r>" %self.name
 
 
 ```
