@@ -105,7 +105,8 @@ class User(db.Model):
 #backref在有关系的另一个model中添加反向引用（就是role_id的别名）
 #通常情况下是让Role模型自己去找User模型中的外键，所以没有在Role模型中看到指定User中哪个是外键的代码
 
-#在指定关系时(relationship函数）
+#在指定关系时(relationship函数），可以使用的选项
+
 ```
     
 
