@@ -192,7 +192,7 @@ db.session.commit()
 ```
 #### 5：查（读取数据）
 ```
-#不加任何条件，读取
+#不加任何条件，读取表中的所有数据
 Role.query.all() 
 User.query.all()
 
