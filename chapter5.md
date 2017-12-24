@@ -185,4 +185,9 @@ db.session.delete(mod_role)
 db.session.commit() #提交数据库事务后，才会真的执行session对数据的操作
 ```
 #### 4：改（更新数据）
+```
+admin_role.name="Adminstrator"
+db.session.add(admin_role)
+db.session.commit()
+```
 
