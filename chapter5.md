@@ -169,6 +169,13 @@ db.session.commit()
 #以上add过程也可以直接 add list
 db.session.add([admin_role, mod_role, user_role,user_a, user_b,user_c])
 
+#数据入库后，再查看primary_key
+print(admin_role.id)
+print(mod_role.id)
+print(user_role.id) 
+
+
+
 
 
 
