@@ -102,6 +102,7 @@ class User(db.Model):
 
 #Role模型中的users属性代表这个关系的面向对象视角（这句话如何理解
 #relationship的第一个参数表示当前表与哪个表有关联
+#backref在有关系的另一个model中添加反向引用（就是role_id的别名）
 ```
     
 
