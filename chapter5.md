@@ -196,4 +196,8 @@ db.session.commit()
 Role.query.all() 
 User.query.all()
 
+#过滤查找
+User.query.filter_by(role=user_role).all() #查找角色为user的所有用户
+
+
 ```
