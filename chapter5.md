@@ -268,8 +268,9 @@ def index():
  <div class="xx">
   <h1>Hello, {% if name %} {{name}} {% else %} Stranger {% endif %}! </h1>
   {% if known %}
-  
+      Nice to see you agagin!
   {% else %}
+      Pleased to meet you
   {%endif %}
   
  </div>
