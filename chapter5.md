@@ -206,7 +206,7 @@ str(User.query.filter_by(role=user_role))
 
 #查询时过滤器的使用需要好好看，扫SQLAlchemy的文档
 #常用的过滤器
-filter() filter_by() limit() offset() first() 
+filter() filter_by() limit() offset() 
 obder_by() group_by()
 
 #过滤器的多次调用
