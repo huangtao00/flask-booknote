@@ -207,6 +207,9 @@ allusers[0].role #返回查询到的第一个用户的角色
 allusers=user_role.users #users是model中的用户视角
 #解决办法：在定义model时，relationship中加入lazy选项
 users=db.relationship("User", backref="role",lazy="dynamic")
+#lazy="dynamic"  表示禁止主动查询，
+
+user_role.users.order_by(User.username).all()
 
 #查看底层的sql语句,一个str函数就搞定了
 str(User.query.filter_by(role=user_role)) 
