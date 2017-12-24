@@ -265,6 +265,11 @@ def index():
 {% import  "bootstrap/wtf.html" as wtf %}
 {% block page_content %}
 
+ <div class="xx">
+  <h1>Hello, {% if name %} {{name}} {% else %} Stranger {% endblock %}
+ </div>
+{{ wtf.quick_form() }}
+
 {% endblock %}
 ```
 
