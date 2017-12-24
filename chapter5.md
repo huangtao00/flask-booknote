@@ -30,7 +30,18 @@ NoSQL的特点是使用**集合**代替表，使用**文档**代替记录。NoSQ
 所以SQLAlchemy是非常不错的选择，强大的关系型数据库抽象层，支持多种数据库，集成以了Flask。
 安装Flask-SQLAlchemy
 ```python
-pip install flask-sqlalchemy
+@requires_authorization
+def somefunc(param1='', param2=0):
+    '''A docstring'''
+    if param1 > param2: # interesting
+        print 'Greater'
+    return (param2 - param1 + 1) or None
+
+class SomeClass:
+    pass
+
+>>> message = '''interpreter
+... prompt'''
 ```
 
 为SQLAlchemy指定数据库引擎
