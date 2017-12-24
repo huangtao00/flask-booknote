@@ -111,7 +111,7 @@ primaryjoin  #明确指定两个模型中的联结条件，另一个模型中存
 lazy #加载相关记录（不懂说的什么）
 uselist #True or False 使用list or not
 order_by #关系记录的排序方式
-
+secondary #指定多对多关系中关系表的名字
 ```
     
 
