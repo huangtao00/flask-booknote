@@ -64,6 +64,9 @@ app.config["SQLALCHEMY_DATABASE_URI"]="sqlite:///"+os.path.join(basedir,"data.sq
 app.config["SQLALCHEMY_COMMIT_ON_TEARDOWN"]=True
 db=SQLAlchemy(app)
 ```
+
+### 4：定义model
+
     
     
 
