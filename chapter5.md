@@ -257,7 +257,7 @@ def index():
         return redirect(url_for("index"))
     return render_template("index.html", name=session.get("name"), known=session.get("know",False))
 
-
+#上面没有看到db.commit()不知道会不会有问题
 
 
 #===templates/index.html
