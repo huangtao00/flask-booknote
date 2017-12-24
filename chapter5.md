@@ -27,5 +27,9 @@ NoSQL的特点是使用**集合**代替表，使用**文档**代替记录。NoSQ
 - SQLAlchemy ORM抽象层支持很多数据库：MySQL, Postgre, SQLite
 - 专为Flask框架集成的插件可以节约你的开发时间，时间就是money.
 
-
+所以SQLAlchemy是非常不错的选择，强大的关系型数据库抽象层，支持多种数据库，集成以了Flask。
+安装Flask-SQLAlchemy
+```
+pip install flask-sqlalchemy
+```
 
