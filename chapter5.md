@@ -140,5 +140,12 @@ db.create_all()
 #### 1：增（插入行）
 创建表之后，剩下的事情就是对数据的操作了
 
+```
+admin_role=Role(name="Admin")
+mod_role=Role(name="Moderator")
+user_role=Role(name="User")
+#利用Role这个模型
+```
+
 
 
