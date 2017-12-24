@@ -149,7 +149,7 @@ user_role=Role(name="User")
 user_a=User(username="a", role=admin_role) 
 #注意观察这个地方的role与上面的Role实例中backref的值
 user_b=User(username="b", role=mod_role) 
-user_c=User(username="c", role=mod_role) 
+user_c=User(username="c", role=user_role) 
 
 
 
