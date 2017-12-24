@@ -174,7 +174,7 @@ print(admin_role.id)
 print(mod_role.id)
 print(user_role.id) 
 
-#数据库的db.session也称为会话，事务，完成add,delete,modify,read
+#数据库的db.session也称为会话，事务，完成add,delete,update,read
 ```
 
 
