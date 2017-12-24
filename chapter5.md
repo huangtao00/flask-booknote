@@ -87,7 +87,7 @@ class User(db.Modle):  #继承自db的Model基类
 ```
 
 ### 5：表与表之间建立关系（外键指向另一个表的primary_key)
-
+上面的model所做的工作是建立db中表的抽象层
 
     
     
