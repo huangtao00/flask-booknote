@@ -220,4 +220,5 @@ first_or_404()
 get()
 get_or_404()
 count()
+paginate()
 ```
