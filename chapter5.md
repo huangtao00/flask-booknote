@@ -184,5 +184,5 @@ print(user_role.id)
 db.session.delete(mod_role)
 db.session.commit() #提交数据库事务后，才会真的执行session对数据的操作
 ```
-#### 4：删（删除行）
+#### 4：改（删除行）
 
