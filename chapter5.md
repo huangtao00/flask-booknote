@@ -186,7 +186,7 @@ db.session.commit() #提交数据库事务后，才会真的执行session对数�
 ```
 #### 4：改（更新数据）
 ```
-admin_role.name="Adminstrator"
+admin_role.name="Adminstrator" #要先读出admin_role
 db.session.add(admin_role)
 db.session.commit()
 ```
