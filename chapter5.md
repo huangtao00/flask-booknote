@@ -215,10 +215,10 @@ Role.query.filter_by(xx).limit().offset().order_by()
 #注意在查询结果后面一定要加all()，返回list的查询结果 ，first()应该不需要，因为返回的是一个结果
 #下面是接在filter后面的查询执行函数
 all()
-first() # resutl or None
-first_or_404() #result or 404
-get()    #返回指定主键对应的行？ or None
-get_or_404() #返回指定主键对应的行？ or 404
+first()          # resutl or None
+first_or_404()   #result or 404
+get()            #返回指定主键对应的行？ or None
+get_or_404()     #返回指定主键对应的行？ or 404
 count()      #数量
 paginate()
 ```
