@@ -66,7 +66,7 @@ db=SQLAlchemy(app)
 ```
 
 ### 4：定义model
-model:程序使用的持久化实体。ORM中model为一个Python class。class中的属性对应数据库表中的列。（好好理解这句话）。使用上面的db实例定义model
+model:程序使用的持久化实体。ORM中model为一个Python class。class中的属性对应数据库表中的列。（好好理解这句话）。使用上面的db实例定义model。这个model就是将database中各列与
 
     
     
