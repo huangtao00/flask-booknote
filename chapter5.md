@@ -264,6 +264,7 @@ def index():
 {% extends "base.html" %}            
 {% import  "bootstrap/wtf.html" as wtf %}
 {% block page_content %}
+
 {% endblock %}
 ```
 
