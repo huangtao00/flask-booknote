@@ -247,7 +247,20 @@ def index():
         #get user data
         input_name=for.name.data
         if User.query.filter_by(username=input_name) is None:
-            session["name"]=input_name
+            session["known"]=False
+            oneuser=User(username=input_name)
+            db.session.add(oneuser)
+        else:
+            session["known"]=True
+        session["name"]=form.name.data
+        form.name.data=""
+        return redirect(url_for("index"))
+    return render_template("index.html", name=session.get("name"), known=session.get("know",False))
+
+
+
+
+#===templates/index.html
             
             
 ```
