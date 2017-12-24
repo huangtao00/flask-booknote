@@ -66,7 +66,7 @@ db=SQLAlchemy(app)
 ```
 
 ### 4：定义model
-
+model:程序使用的持久化实体。
     
     
 
