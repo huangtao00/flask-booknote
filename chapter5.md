@@ -126,7 +126,7 @@ uselist=False
 
 #### 1：创建表
 ```
-#有了model和model之间的关系后，
+db.create_all() #
 
 ```
 
