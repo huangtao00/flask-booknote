@@ -236,5 +236,6 @@ get_or_404()     #返回指定主键对应的行？ or 404
 count()          #数量
 paginate()       #包含指定范围内的结果？？
 ```
-### 7：数据库的操作
+### 7：在view function中操作数据库
+上面例子介绍了使用model and db
 
