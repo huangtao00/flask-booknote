@@ -174,7 +174,9 @@ print(admin_role.id)
 print(mod_role.id)
 print(user_role.id) 
 
-#数据库的db.session也称为会话，事务，完成add,delete,update,read
+#数据库的db.session也称为会话，事务，完成add,delete,update,read,会话能保证数据库的一致性。原子操作把会话保存到数据库，写入过程有意外，整个写入就失败，不存在写入一半，另一半没写少的情况 
+
+#db.session.rollback() 回滚一次
 ```
 
 
