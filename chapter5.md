@@ -29,14 +29,17 @@ NoSQL的特点是使用**集合**代替表，使用**文档**代替记录。NoSQ
 
 所以SQLAlchemy是非常不错的选择，强大的关系型数据库抽象层，支持多种数据库，集成以了Flask。
 安装Flask-SQLAlchemy
+
+
+```
 fdsafd
+```
+
+
 
 为SQLAlchemy指定数据库引擎
     #url 方式
 
 
 
-```
-ss 
-```
 
