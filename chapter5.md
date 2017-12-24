@@ -133,7 +133,8 @@ db.create_all()
 #可行的做法如下
 if 旧表存在:
     #备份旧表
-    db.drop_all()
+    db.drop_all() #则掉旧表
+
 
 
 
