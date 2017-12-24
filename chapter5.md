@@ -126,7 +126,9 @@ uselist=False
 
 #### 1：创建表
 ```
-db.create_all() #
+db.create_all() #创建了一个data.sqlite的文件，根据model创建的。url中指定的就是这个数据库的名字
+
+
 
 ```
 
