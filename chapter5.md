@@ -151,6 +151,10 @@ user_a=User(username="a", role=admin_role)
 user_b=User(username="b", role=mod_role) 
 user_c=User(username="c", role=user_role) 
 #上面只是创建了表roles和users中的几行数据，但是并没有真正的保存到数据库中
+#下面的代码打印出他们的id,可以看到返回None,所以并没有真的插入到db
+print(admin_role.id)
+print(mod_role.id)
+print(user_role.id) 
 
 
 
