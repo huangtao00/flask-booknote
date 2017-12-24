@@ -52,6 +52,7 @@ code snippet:
     import os 
     os.path.dirname(fn) #fn文件名，return该文件的相对路径 
     os.path.abspath(dir) #dir相对路径，return绝对路径
+    os.path.join(path, fname) #path+fname形成文件的绝对路径
 初始化及配置SQLite:
     from flask.ext.sqlalchemy import SQLALchemy
     basedir=os.path.abspath(os.path.dirname(__name__))
