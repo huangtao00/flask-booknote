@@ -34,14 +34,14 @@ NoSQL的特点是使用**集合**代替表，使用**文档**代替记录。NoSQ
 pip install flask-sqlalchemy
 ```
 
-
-
 为SQLAlchemy指定数据库引擎：
-    #url 方式
-    url= "mysql://username:passswd@hostname/database
-    url= "postgresql://username:passwd@hostname/database"
-    url="sqlite:////absolute/path/database
-    url="sqlite:///c:/xx/database
+```
+#url 方式
+url= "mysql://username:passswd@hostname/database
+url= "postgresql://username:passwd@hostname/database"
+url="sqlite:////absolute/path/database
+url="sqlite:///c:/xx/database
+```
 对URL进行配置：
 ```
 url="abc"
