@@ -163,7 +163,8 @@ db.session.add(user_role)
 db.session.add(user_a)
 db.session.add(user_b)
 db.session.add(user_c)
-
+#添加到会话中，然后commit
+db.session.commit()
 
 
 
