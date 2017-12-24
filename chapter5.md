@@ -79,7 +79,7 @@ class Role(db.Modle):  #继承自db的Model基类
 class User(db.Modle):  #继承自db的Model基类
     __table__="users"
     id=db.Column(db.Integer,primary_key=True)
-    name=db.Column(db.String(64), unique=True)
+    username=db.Column(db.String(64), unique=True)
     def  __repr_(self):
         return "<Role %r>" %self.name
 
