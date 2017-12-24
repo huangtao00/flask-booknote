@@ -217,8 +217,8 @@ Role.query.filter_by(xx).limit().offset().order_by()
 all()
 first() # resutl or None
 first_or_404() #result or 404
-get()
-get_or_404()
+get()    #返回指定主键对应的行？ or None
+get_or_404() #
 count()
 paginate()
 ```
