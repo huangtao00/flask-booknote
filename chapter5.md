@@ -213,4 +213,11 @@ obder_by() group_by()
 Role.query.filter_by(xx).limit().offset().order_by()
 
 #注意在查询结果后面一定要加all()，返回list的查询结果 ，first()应该不需要，因为返回的是一个结果
+#下面是接在filter后面的查询执行函数
+all()
+first()
+first_or_404()
+get()
+get_or_404()
+count()
 ```
