@@ -270,7 +270,7 @@ def index():
   {% if known %}
       Nice to see you agagin!
   {% else %}
-      Pleased to meet you
+      Pleased to meet you!
   {%endif %}
   
  </div>
