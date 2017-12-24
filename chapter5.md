@@ -106,6 +106,9 @@ class User(db.Model):
 #通常情况下是让Role模型自己去找User模型中的外键，所以没有在Role模型中看到指定User中哪个是外键的代码
 
 #在指定关系时(relationship函数），可以使用的选项
+backref
+primaryjoin  #明确指定两个模型中的联结条件，另一个模型中存在多个外键时使用
+lazy #加载相关记录（不懂说的什么）
 
 ```
     
