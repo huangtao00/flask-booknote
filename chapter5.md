@@ -118,9 +118,6 @@ secondaryjoin #SQLAlchemy无法自行决定时，指定多对多关系中的二�
 #一对一的设置
 uselist=False 
 #多对一， 多对多 这些都是其它情况，多对多最为复杂
-
-
-
 ```
     
 
