@@ -239,5 +239,16 @@ paginate()       #包含指定范围内的结果？？
 ### 7：在view function中操作数据库
 上面例子介绍了使用model and db 操作数据库的方法，下面具体到如何在view function中使用这些操作
 
-
+```
+@app.route("/", methods=["GET","POST"]
+def index():
+    form=NameForm()
+    if form.validate_on_submit():
+        #get user data
+        input_name=for.name.data
+        if User.query.filter_by(username=input_name) is None:
+            session["name"]=input_name
+            
+            
+```
 
