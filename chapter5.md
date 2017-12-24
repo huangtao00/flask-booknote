@@ -150,7 +150,8 @@ user_a=User(username="a", role=admin_role)
 #注意观察这个地方的role与上面的Role实例中backref的值
 user_b=User(username="b", role=mod_role) 
 user_c=User(username="c", role=user_role) 
-#上面只是创建了表Role和
+#上面只是创建了表roles和users中的几行数据，但是并没有真正的保存到数据库中
+
 
 
 
