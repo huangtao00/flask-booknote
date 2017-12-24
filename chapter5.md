@@ -220,5 +220,5 @@ first_or_404()   #result or 404
 get()            #返回指定主键对应的行？ or None
 get_or_404()     #返回指定主键对应的行？ or 404
 count()          #数量
-paginate()
+paginate()       #包含指定范围内的结果
 ```
