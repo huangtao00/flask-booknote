@@ -86,7 +86,8 @@ class User(db.Modle):  #继承自db的Model基类
 #model中的类是给test and debug用的
 ```
 
-### 5：表与表之间建立关系
+### 5：表与表之间建立关系（外键指向另一个表的primary_key)
+
 
     
     
