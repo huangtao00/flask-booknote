@@ -201,6 +201,8 @@ User.query.filter_by(role=user_role).all() #查找角色为user的所有用户
 user_role=Role.query.filter_by(name="User").first()
 #Role的查询结果可以反向查询有多少这样的用户
 user_role.users #users是表的名字
+
+
 #查看底层的sql语句,一个str函数就搞定了
 str(User.query.filter_by(role=user_role)) 
 
