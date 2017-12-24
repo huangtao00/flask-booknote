@@ -93,7 +93,7 @@ class User(db.Modle):  #继承自db的Model基类
 class Role(db.Model):
     #...之间的代码
     users=db.relationship("User", backref="role")
-    #注意这行代码，User为关联表的类名
+    #注意这行代码，"User"为关联表的类名
 ```
     
 
