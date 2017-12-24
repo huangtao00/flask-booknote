@@ -65,7 +65,7 @@ app.config["SQLALCHEMY_COMMIT_ON_TEARDOWN"]=True
 db=SQLAlchemy(app)
 ```
 
-### 4：定义model
+### 4：定义model（每一个model类对应一张表）
 model:程序使用的持久化实体。ORM中model为一个Python class。class中的属性对应数据库表中的列。（好好理解这句话）。使用上面的db实例定义model。这个model就是将database中各列与SQLAlchemy的操作联系起来的类
 ```
 db=SQLAlchemy(app)
