@@ -48,7 +48,9 @@ pip install flask-sqlalchemy
     app.config["SQLALCHEMY_COMMIT_ON_TEARDOWN"]=True #每次请求结束后自动提交数据库中的变动
     
     
-
+初始化及配置SQLite:
+    from flask.ext.sqlalchemy import SQLALchemy
+    
 
 
 
