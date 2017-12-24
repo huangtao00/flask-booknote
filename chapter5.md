@@ -81,7 +81,7 @@ class User(db.Modle):  #继承自db的Model基类
     id=db.Column(db.Integer,primary_key=True)
     username=db.Column(db.String(64), unique=True,index=True)
     def  __repr_(self):
-        return "<User%r>" %self.name
+        return "<User %r>" %self.name
 
 
 
