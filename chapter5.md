@@ -157,7 +157,13 @@ print(mod_role.id)
 print(user_role.id) 
 
 #完成数据的入库过程 (db.session管理数据）
-db.session.add(admin
+db.session.add(admin_role)
+db.session.add(mod_role)
+db.session.add(user_role)
+db.session.add(user_a)
+db.session.add(user_b)
+db.session.add(user_c)
+
 
 
 
