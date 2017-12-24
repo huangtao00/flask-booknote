@@ -114,8 +114,11 @@ order_by #关系记录的排序方式
 secondary #指定多对多关系中关系表的名字
 secondaryjoin #SQLAlchemy无法自行决定时，指定多对多关系中的二级联系条件（不懂）这些内容要好好看SQLAlchemy的文档
 
+#上面表之间的关系为一对多的情况 
 #一对一的设置
 uselist=False 
+
+
 ```
     
 
