@@ -147,7 +147,8 @@ user_role=Role(name="User")
 #利用Role这个模型产生了三种不同的role实体，每个role实体就是表roles中的一行信息
 
 user_a=User(username="a", role=admin_role) 
-#注意这个地方的role与上面的
+#注意观察这个地方的role与上面的Role实例中backref的值
+
 
 ```
 
