@@ -46,8 +46,6 @@ pip install flask-sqlalchemy
     url="abc"
     app.config["SQLALCHEMY_DATABASE_URI"]=url
     app.config["SQLALCHEMY_COMMIT_ON_TEARDOWN"]=True #每次请求结束后自动提交数据库中的变动
-    
-
 code snippet:
     import os 
     os.path.dirname(fn) #fn文件名，return该文件的相对路径 
