@@ -24,4 +24,7 @@ NoSQL的特点是使用**集合**代替表，使用**文档**代替记录。NoSQ
 - MySQL, Postgre, SQLite, Redis, MongoDB, CouchDB
 - python的数据库抽象包，更接近事务处理的层面，不关心底层表，文档，查询语言此类的对象，让数据库的操作更easy.如，SQLAlchemy, MongoEngine
 - 数据库的抽象层使数据库更好易用。抽象层：ORM, object-relational Mapper。ODM, Object-Document Mapper
+- SQLAlchemy ORM这个数据库的抽象层支持很多MySQL, Postgre, SQLite
+
+
 
