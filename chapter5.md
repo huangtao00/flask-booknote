@@ -212,4 +212,5 @@ obder_by() group_by()
 #过滤器的多次调用
 Role.query.filter_by(xx).limit().offset().order_by()
 
+#注意在查询结果后面一定要加all() 
 ```
