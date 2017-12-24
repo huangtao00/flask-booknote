@@ -125,6 +125,8 @@ uselist=False
     
 
 #### 1：创建表
-
+```
+python hello.py shell #在shell 中输入的内容会写到hell.py中？
+```
 
 
