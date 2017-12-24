@@ -54,6 +54,8 @@ code snippet:
     os.path.abspath(dir) #dir相对路径，return绝对路径
 初始化及配置SQLite:
     from flask.ext.sqlalchemy import SQLALchemy
+    basedir=os.path.abspath(os.path.dirname(__name__))
+    
 
 
 
