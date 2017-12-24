@@ -134,7 +134,7 @@ db.create_all()
 if 旧表存在:
     #备份旧表
     db.drop_all() #则掉旧表
-
+db.create_all()
 
 
 
