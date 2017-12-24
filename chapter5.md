@@ -12,4 +12,4 @@
 
 
 ![](/assets/role.jpg)
-users表中的role_id为这个表中的外键，
+users表中的role_id为这个表中的外键，指向另一个表roles中的主键id
