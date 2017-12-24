@@ -88,7 +88,13 @@ class User(db.Modle):  #继承自db的Model基类
 
 ### 5：表与表之间建立关系（外键指向另一个表的primary_key)
 上面的model是建立db中表的抽象层，并没有反映出表与表之间的关系，所以还需要添加一些代码，建立这种关系。（游戏：一个role对应多个user，一个user只存在一个role，role到user，一对多的关系）
-  
+```
+#Role中的主键，对应user中的外键
+class Role(db.Model):
+    #...之间的代码
+    users=db.relationship("User", backref="role")
+    #注意这行代码，User为关系数据库的类名
+```
     
 
 
