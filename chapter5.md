@@ -209,4 +209,7 @@ str(User.query.filter_by(role=user_role))
 filter() filter_by() limit() offset() first() 
 obder_by() group_by()
 
+#过滤器的多次调用
+Role.query.filter_by(xx).limit().offset().order_by()
+
 ```
