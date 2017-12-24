@@ -94,7 +94,10 @@ class Role(db.Model):
     #...之间的代码
     users=db.relationship("User", backref="role")
     #注意这行代码，"User"为关联表的类名,这个"role"何解
-    
+
+class User(db.Model):
+    #...之前的代码
+        
 ```
     
 
