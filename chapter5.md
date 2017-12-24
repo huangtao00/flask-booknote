@@ -179,6 +179,6 @@ print(user_role.id)
 #db.session.rollback() 回滚一次
 ```
 
-#### 2：增（插入行）
+#### 2：删（删除行）
 
 
