@@ -190,5 +190,5 @@ admin_role.name="Adminstrator" #要先读出admin_role
 db.session.add(admin_role) #写回
 db.session.commit()
 ```
-#### 4：查（读取数据）
+#### 5：查（读取数据）
 
