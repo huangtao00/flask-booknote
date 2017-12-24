@@ -97,7 +97,7 @@ class Role(db.Model):
 
 class User(db.Model):
     #...之前的代码
-        
+    role_id
 ```
     
 
