@@ -211,6 +211,7 @@ users=db.relationship("User", backref="role",lazy="dynamic")
 
 user_role.users.order_by(User.username).all()
 
+
 #查看底层的sql语句,一个str函数就搞定了
 str(User.query.filter_by(role=user_role)) 
 
