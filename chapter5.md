@@ -216,7 +216,7 @@ Role.query.filter_by(xx).limit().offset().order_by()
 #下面是接在filter后面的查询执行函数
 all()
 first() # resutl or None
-first_or_404()
+first_or_404() #result or 4040
 get()
 get_or_404()
 count()
