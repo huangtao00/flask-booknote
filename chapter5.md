@@ -237,5 +237,7 @@ count()          #数量
 paginate()       #包含指定范围内的结果？？
 ```
 ### 7：在view function中操作数据库
-上面例子介绍了使用model and db
+上面例子介绍了使用model and db 操作数据库的方法，下面具体到如何在view function中使用这些操作
+
+
 
