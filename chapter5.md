@@ -99,7 +99,8 @@ class User(db.Model):
     #...之前的代码
     role_id=db.Column(db.Integer, db.ForeignKey("roles.id")) #roles为Role类的表名
     #role_id为roles表中id的外键
-    
+
+#Role模型中的users属性代表这个关系的面向对象视角（这句话如何理解）   
 ```
     
 
