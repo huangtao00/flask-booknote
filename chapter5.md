@@ -279,4 +279,4 @@ def index():
 {% endblock %}
 ```
 
-### 8：在view function中操作数据库
+### 8：数据库的Migrate (迁移)
