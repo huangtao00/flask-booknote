@@ -8,6 +8,6 @@
 
 
 ### 1:SQL数据库
-关系型数据库，用表存储数据，有header必须，primary key为行数，
+关系型数据库，用表存储数据，有header必须，primary key为行数。
 
 
