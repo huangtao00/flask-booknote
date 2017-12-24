@@ -199,5 +199,6 @@ User.query.all()
 #过滤查找
 User.query.filter_by(role=user_role).all() #查找角色为user的所有用户
 
-#查看底层的sql
+#查看底层的sql语句
+
 ```
