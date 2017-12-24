@@ -126,8 +126,7 @@ uselist=False
 
 #### 1：创建表
 ```
-python hello.py shell
-
+#有了model和model之间的关系后，
 
 ```
 
