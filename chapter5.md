@@ -82,6 +82,8 @@ class User(db.Modle):  #继承自db的Model基类
     username=db.Column(db.String(64), unique=True,index=True)
     def  __repr_(self):
         return "<User %r>" %self.username
+
+#model中的类是给test and debug用的
 ```
 
 
