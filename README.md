@@ -1,2 +1,2 @@
-# some book notes for flask exploration
+# some reading notes for flask exploration
 
