@@ -129,6 +129,11 @@ uselist=False
 db.create_all() 
 #创建了一个data.sqlite的文件，根据model创建的。url中指定的就是这个数据库的名字
 #如果url指定的目录下面存在这个表，这个表就不会被重新创建了
+#如果修改了model,要重新创建新的表，就需要先删除这个旧表
+#可行的做法如下
+if 旧表存在:
+    #备份旧表
+    db.drop_all()
 
 
 
