@@ -210,6 +210,7 @@ users=db.relationship("User", backref="role",lazy="dynamic")
 #lazy="dynamic"  表示禁止主动查询，
 
 user_role.users.order_by(User.username).all()
+#上面查询结果会返回一个按字母顺序排列的list
 
 
 #查看底层的sql语句,一个str函数就搞定了
